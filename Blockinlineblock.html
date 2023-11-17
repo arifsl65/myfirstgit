@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Block, Inline, and Inline-Block Example</title>
+    <style>
+
+        .block {
+            display: block;
+            width: 200px;
+            height: 100px;
+            background-color: #ffcc00;
+            margin: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .inline {
+            display: inline;
+            padding: 10px;
+            background-color: #ff6600;
+        }
+
+        .inline-block {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: #0099cc;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block">
+        <p>This is a Block Element</p>
+        <p>second line of block </p>
+    </div>
+   
+    <p>
+        This is a paragraph that contains an 
+        <span class="inline">Inline Element</span> 
+        within it. It flows with thetext.
+    </p>
+    
+    
+    <div class="inline-block">
+        <p>This is an Inline-Block Element</p>
+        <p> test test</p>
+    
+    </div>
+
+
+</body>
+
+</html>
